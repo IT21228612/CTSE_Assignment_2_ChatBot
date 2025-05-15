@@ -1,4 +1,4 @@
-# CTSE_Assignment_2_ChatBot
+# CTSE Chatbot using RAG in Jupyter Notebook
 
 ## 1. Introduction
 
@@ -41,4 +41,27 @@ This structured pipeline allows for an interpretable and accurate chatbot experi
 
 ---
 
-Through these carefully defined steps, the chatbot provides helpful, focused answers, supporting students in revisiting and reinforcing lecture content with clarity and confidence.
+## 4. How to Run
+
+Follow these steps to run the chatbot locally:
+
+1. **Download all the project files** from this repository to your local machine.
+
+2. **Open the `CTSE_chatbot_IT21228612.ipynb` file** using Jupyter Notebook or JupyterLab.
+
+3. **Run the notebook cell by cell** from top to bottom.
+
+4. You will likely encounter errors indicating that **some libraries or frameworks are missing**.
+
+5. **Copy each error message** and **paste it into ChatGPT or any AI assistant** to identify which Python package is missing or needs to be installed.
+
+6. **Install the required packages** using `pip` inside the notebook or your terminal. For example:
+
+   ```bash
+   pip install pymupdf langchain sentence-transformers faiss-cpu transformers jupyter
+
+   ```
+
+7. After installing all the required packages, restart the notebook kernel and run the cells again.
+
+8. Once all cells run without errors, you can interact with the chatbot and ask questions based on the CTSE lecture notes.
